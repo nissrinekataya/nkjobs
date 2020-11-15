@@ -32,6 +32,22 @@
 			<input name="password" type="password" class="form-control" placeholder="password" required autofocus>
 		</div>
 	</div>
+	<div class="row form-group">
+		<div class="col-sm-2">
+			<label> Account Type </label>
+		</div>
+		<div class="col-sm-10">
+			<select name="account_type_fk"  class="form-control">
+				<option value="5">Empoyee</option>
+				<option value="6">Empoyer</option>
+			</select>
+		</div>
+	</div>
+	<div class="row ">
+		<button to="CT<?= time() ?>" class="btn btn-lg btn-primary btn-block submitForm" type="button"
+			onclick="SYS.XHRForm(this);">Register</button>
+		<div id="CT<?= time() ?>" class="CT1"></div>
+	</div>
 
 </form>
 </body>
