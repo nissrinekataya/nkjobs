@@ -1,0 +1,80 @@
+html,
+body {
+  height: 100%;
+}
+#title {
+  position: relative;
+  background-color: #DD575C;
+  width: 100%;
+  padding: 20px 0px;
+  border-top-left-radius: 0.22em;
+  border-top-right-radius: 0.22em;
+  font-size: 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: url('../Images/jpg/signin-bg.jpg');
+  background-size: 300px 200px;
+  /* background-size: cover; */
+  background-attachment: fixed;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  background:#fff;
+  border: 8px dashed #51fbf9;
+  box-shadow: 0px 0px 2px 4px #01494c;
+  border-radius: 28px;
+  text-align: center;
+}
+.form-signin .logo-name{
+  position: absolute;
+  color:palevioletred;
+  font-size: 4em;
+  top: 225px;
+  left: 33%;
+  font-family: "Sofia";
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-signin .fa{
+  margin-top:50%;
+  margin-left:18px;
+}
+.signin-header{
+  text-align:center;
+  padding:5px 0px 5px 0px;
+  background:#51fbf9;
+  margin:30px 0px 30px 0px;
+  color:#01494c;
+  border-radius:40px;
+}

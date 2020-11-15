@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options +Indexes
+    </IfModule>
+    
+    ErrorDocument 200 "200"
+    ErrorDocument 401 "401 Unauthorized "
+    ErrorDocument 404 "404 Not Found "
+    ErrorDocument 403 "403 Forbidden "
+    ErrorDocument 500 "500 Internal Server Error "
+
+    RewriteEngine On
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>

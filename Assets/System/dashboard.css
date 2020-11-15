@@ -1,0 +1,55 @@
+.admin_side_nav{
+    list-style:none;
+    padding:0;
+}
+.admin_side_nav .nav_item{
+    padding:4px;
+    border: 1px solid #db6eb3 !important;
+    margin-top:-1px;
+    font-weight:bold;
+    background:#0db2b240;
+    height: 34px;
+    overflow: hidden;
+    cursor:pointer;
+}
+.admin_side_nav .nav_item:hover{
+    background:#092046;
+    color:#fff;
+}
+.admin_side_nav .db_item{
+    background:#0db2b299;
+}
+
+.table-db-builder tr td:nth-child(1){
+    width: 200px;
+}
+.actualNameTd{
+    font-weight: bold;
+    text-align: center;
+}
+.AdminPageContents {
+    overflow:scroll;
+}
+[class*='TblCtrl']{
+    overflow:scroll;
+    width:200px;
+}
+.navbar{
+    background: #5f0c4c !important;
+}
+#PDemia-Dashboard-NAV{
+    background:#efbbff3d !important;
+}
+
+.project_container{
+    background:#54dbec;
+    border:1px solid black;
+    display:inline-block;
+    width:auto;
+    border-radius:20px;
+    text-align:center;
+    cursor:pointer;
+}
+.project_container:hover{
+    background:#258d9a;
+}

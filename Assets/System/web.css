@@ -1,0 +1,89 @@
+*{
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar-track{
+    background-color: #0db2b2;
+    border-radius: 0px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 0px;
+    background-image: -webkit-gradient(linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgb(9, 32, 70)),
+    color-stop(0.72, rgb(9, 32, 70)),
+    color-stop(0.86, rgb(9, 32, 70)));
+}
+
+.navbar{
+    background: rgb(3, 94, 110) !important;
+}
+.carousel-item .carousel-caption{
+    background: rgb(45 4 83 / 64%);
+    padding: 20px;
+}
+.RegisterFormContaienr{
+    margin-top:3em;
+    border:3px dotted red;
+    padding:40px 20px 50px 20px;
+    background:linear-gradient(#ff00005c,#8000ff36);
+    box-shadow:0px 0px 30px 5px #72b7ff;
+}
+
+.pdemia-footer{
+    background: rgb(8 89 89) !important;
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+    margin-top: 4em;
+}
+.pdemia-footer .fa{
+    font-size:3rem;
+    margin:1rem;
+    text-shadow:0px 0px 2px #270303;
+    border: 1px dashed #0db2b2;
+    width: 62px;
+    text-align:center;
+    padding:6px 0px 3px 0px;
+    background: #092046;
+    cursor:pointer;
+    color: #0db2b2;
+}
+.pdemia-footer .fa:hover{
+    background:#0b17a5;
+    color:#fff;
+}
+.img-fluid{
+    height:200px;
+}
+.chatContainer{
+    border:1px dashed black;
+    padding:10px;
+}
+.messagesContainer{
+    min-height:200px;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+.chatContainer form{
+    margin-top:5px;
+}
+.message_container{
+    margin:3px;
+    padding:3px;
+}
+.message_container:nth-child(even){
+    background:#8cedfc;
+}
+.message_container:nth-child(odd){
+    background:#b8f5ff;
+}
+.message_container .message_meta{
+    text-align:right;
+    font-weight:bold;
+}

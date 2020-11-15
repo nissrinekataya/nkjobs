@@ -1,0 +1,13 @@
+.jumbotron{
+    height:250px;
+    background: url('../Images/jpg/carousel-1.jpg');
+    background-size: 100% 100%;
+}
+.jumbotron h1{
+    background:#ffffff94;
+    padding:3px;
+    position:absolute;
+    color:purple;
+    font-weight:bold;
+    text-transform:capitalize;
+}

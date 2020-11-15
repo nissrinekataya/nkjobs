@@ -1,0 +1,48 @@
+.jumbotron{
+    height: 250px;
+    background: url("../Images/jpeg/career-2.jpeg");
+    background-size: 100% 180%;
+}
+.mainBodyContainer{
+    min-height:400px;
+}
+.home-header-h1{
+    text-align:center;
+    font-size:4rem;
+    color:#07293e;
+    text-shadow:1px 1px #37e6d1;
+}
+.buttonContainer .col-sm-8{
+    font-size:45pt;
+    text-align:center;
+    border:1px solid #092046;
+    background:#092046;
+    color:#0db2b2;
+    cursor:pointer;
+}
+.buttonContainer .col-sm-4{
+    text-align:center;
+    font-size:40pt;
+    border:1px solid #0db2b2;
+    background:#0db2b2;
+    color:#092046;
+    cursor:pointer;
+}
+
+.buttonContainer .col-sm-8:hover{
+    color:#092046;
+    background:#fff;
+    border:1px solid #0db2b2;
+}
+.buttonContainer .col-sm-4:hover{
+    color:#092046;
+    background:#fff;
+    border:1px solid #092046;
+}
+.floatNavButton{
+    float:right;
+}
+.floatNavButton a{
+    background:#092046;
+    border:none
+}
